@@ -4,40 +4,31 @@
 ### Introduction
 ##### What is terraform?
 
-Terraform is a tool for **provisioning infrastructure** (or managing Infrastructure as Code). It supports multiple providers(eg **AWS, Google Cloud, Azure, OpenStack**..).
-
-https://www.terraform.io/docs/providers/index.html
+Terraform is a tool for **provisioning infrastructure** (or managing Infrastructure as Code). It supports multiple [providers](https://www.terraform.io/docs/providers/index.html) (eg **AWS, Google Cloud, Azure, OpenStack**..).
 
 ### Getting Started on Terraform
 
-##### Step 1: Installing Terraform and Download the Package on Windows system.
+#### Windows
+##### Step 1: Downloading.
 
-Installing Terraform is pretty straightforward, download it from **Terraform download page** and select the appropriate package based on your operating system.T watch the tutorial on installation , watch the first link .
-
-https://learn.hashicorp.com/terraform/getting-started/install.html
-
-https://www.terraform.io/downloads.html
-
-https://releases.hashicorp.com/terraform/0.12.13/terraform_0.12.13_linux_amd64.zip
+Installing Terraform is pretty straightforward, download it from [Terraform download page](https://www.terraform.io/downloads.html) and select the appropriate package based on your operating system. Click [here](https://learn.hashicorp.com/terraform/getting-started/install.html) to watch a tutorial on installation.
 
 ##### Step 2: Unzip it
 ```
-$ unzip terraform_0.12.13_linux_amd64.zip
+$ unzip terraform_0.13.3_windows_amd64.zip
 ```
 Download the applicable package to your local system.
-Extract the package to the folder C:\Program Files (x86).
+Extract the package to the folder C:\Program Files (x86). Keep in mind that the above version may be different from what you download as new versions are released all the time.
 
 ##### Step 3: Add the binary to PATH environment variable
 
 1. This path is used as an example. However, you can also the Terraform executable to any other location in your local system.
-2. Update the path environment variable to include the folder where your Terraform executable is located.
-3. Go to the Control Panel.On a Windows 10 system, click Advanced system settings. This option might vary in different versions of Windows.
-4. The Advanced tab of the System Properties window is displayed.Click Environment Variables near the bottom of the window.
-5. The Environment Variables window is displayed.
-In the System variables pane, click Path and then click Edit.
-6. Click New. Add the path to the folder where your Terraform executable is located.
-7. Click OK to save your changes and then click OK to exit the Environment Variables windows. Then click OK again to exit the System Properties window.
-
+1. Update the path environment variable to include the folder where your Terraform executable is located.
+1. Go to the Control Panel on your Windows system, click Advanced system settings. This option might vary in different versions of Windows.
+1. The Advanced tab of the System Properties window should now be displayed, click Environment Variables near the bottom of the window.
+1. The Environment Variables window should now be  displayed. In the System variables pane, click Path and then click Edit.
+1. Click New. Add the path to the folder where your Terraform executable is located.
+1. Click OK to save your changes and then click OK to exit the Environment Variables windows. Then click OK again to exit the System Properties window.
 
 ##### Step 4:  Verification
 To verify terraform is installed properly, type the following command in CLI
@@ -46,25 +37,25 @@ $ terraform version
 ```
 the response has to be
 ```
-$ Terraform v0.12.13
+$ Terraform v0.13.3
 ```
-### Install on Mac
-For Mac Users, type the following commands in terminal
+#### Mac (OSx)
+For Mac Users, the below instructions assume you have brew installed. If you do not, click [here](http://brew.sh/). For the below commands, open up terminal.  
 ```
 brew intall git
 brew install terraform
 sudo cp terraform /usr/local/bin
 sudo chmod +x /usr/local/bin/terraform
-brew install awscli\
+brew install awscli
 awscli run configure
 ```
-####How to Install Terraform on Linux
+#### Linux
 Terraform is distributed as a tarball on Github. Check the latest release on Terraform releases page before downloading below.
 ```
 TER_VER=`curl -s https://api.github.com/repos/hashicorp/terraform/releases/latest | grep tag_name | cut -d: -f2 | tr -d \"\,\v | awk '{$1=$1};1'`
 wget https://releases.hashicorp.com/terraform/${TER_VER}/terraform_${TER_VER}_linux_amd64.zip
 ```
-Once the archive is downloaded, extract and move terraform binary file to the /usr/local/bin directory.
+Once the archive is downloaded, extract and move terraform binary file to the `/usr/local/bin` directory.
 ```
 $ unzip terraform_${TER_VER}_linux_amd64.zip
 Archive:  terraform_xxx_linux_amd64.zip
