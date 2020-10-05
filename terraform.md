@@ -63,16 +63,17 @@ Check the version of Terraform installed
 ```
 $ terraform --versions
 ```
-Terraform v0.13.X
+Terraform v0.12.13
 
 ### Prerequisites
+Before we can begin writing terraform code, you need to have a few Prerequisites in place.
 1. Existing AWS Account(OR Setup a new account)
 1. IAM full access(OR at least have AmazonEC2FullAccess)
 1. AWS Credentials(AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY)
 1. Configure the Access keys and secret keys to AWS CLI
 With all pre-requisites in place, it’s time to write your first terraform code.
 
-### Overview
+### Terraform Overview
 
 Terraform is a program developed by  **HashiCorp**. It uses what they call the _HashiCorp Configuration Language (HCL)_. It’s a **declarative language** where we define the type of infrastructure we want and terraform will figure out how to create it.
 
@@ -84,8 +85,8 @@ Here are links to some free resources where you can learn more about Terraform.
  - https://www.udemy.com/course/terraform-beginner-to-advanced/
 
 
-### Hands-on Time:
-The following exercises will help reinforce the learning that was done above:
+### Hands-on Practice:
+The following exercises will help to reinforce the learning that was done above:
 
 #### Task 1:
 Create a provider block and the resource EC2 instance block. Add the following arguments as part of the configuration code:
@@ -94,7 +95,7 @@ Create a provider block and the resource EC2 instance block. Add the following a
 - Tags
 
 #### Task 2:
-- Create an s3 bucket that is guaranteed to be globally unique. The
+- Create an s3 bucket that is guaranteed to be globally unique.
 - Create multiple S3 buckets using a single resource. This should be done with count and with a for loop.
 
 #### Task 3:
