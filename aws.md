@@ -30,7 +30,6 @@ Here are some links.
 - **[Adrian Cantril](https://learn.cantrill.io/p/aws-certified-solutions-architect-associate-saa-c02)**
 - [Stephane Maarek](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/)
 
-
 ## Exam Prep Resource and Cheat Sheets
 - [**Tutorial Dojo**](https://portal.tutorialsdojo.com/courses/aws-certified-solutions-architect-associate-practice-exams/)
 - https://tutorialsdojo.com/aws-cheat-sheets/

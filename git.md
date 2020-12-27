@@ -35,6 +35,10 @@ Here are some links to follow.
 - https://www.youtube.com/watch?v=SWYqp7iY_Tc
 - https://www.youtube.com/watch?v=Y9XZQO1n_7c
 - https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/
+- https://www.udemy.com/git-started-with-github/
+- https://www.youtube.com/watch?v=Extvmadj4no
+- https://www.codeschool.com/courses/try-git
+- https://www.codeschool.com/courses/git-real
 
 ### Basic Git Commands
 - https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
