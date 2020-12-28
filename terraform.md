@@ -88,20 +88,39 @@ Here are links to some free resources where you can learn more about Terraform.
 ### Hands-on Practice:
 The following exercises will help to reinforce the learning that was done above:
 
-#### Task 1:
+#### Task :
 Create a provider block and the resource EC2 instance block. Add the following arguments as part of the configuration code:
 - Amazon Machine Image(AMI)
 - Instance Type
 - Tags
 
-#### Task 2:
+#### Task :
 - Create an s3 bucket that is guaranteed to be globally unique.
 - Create multiple S3 buckets using a single resource. This should be done with count and with a for loop.
 
-#### Task 3:
-- Write TF code to create an ASG (autoscaling group) and a LC (launch configuration) to install the apache webserver.
+#### Task :
+- Launch an EC2 instance.
+- SSH into the instance and manually install the webserver (pick either apache or nginx) and have a webpage that says hello world. The output of terraform should have the ip address of the instance launched.
 
-##### Task 4
+#### Task :
+- Do the above but automate that via a bash script.
+
+#### Task :
+- Do the above now create 2 instances and place them behind a load balancer.
+
+#### Task :
+- Have the load balancer do a health check on port 80.
+
+#### Task :
+- Log into once of the instances and kill the apache process. Does this cause the load balancer to remove it from the balancing act?
+
+#### Task :
+- Write TF code to create an ASG (autoscaling group) and a LC (launch configuration) to install the apache webserver with a minimum of 2 nodes.
+
+#### Task :
+- Via the AWS Console, kill one of the instances in the ASG.
+
+##### Task
 - Write TF move apache httpd configuration files over to S3 and then use user-data to pull the configuration down and restart apache.
 
 ### Terraform Certification

@@ -1,9 +1,8 @@
 # Curriculum
 
 ## Table of Contents
-- [Install/Setup Atom](https://github.com/pimalabs/cloud-curriculum/blob/master/atom.md)
-- [Install SequelPro](http://www.sequelpro.com/)
-- [Install KeePassX](https://www.keepassx.org/downloads) | or use LastPass
+- Setup [Mac](https://github.com/pimalabs/cloud-curriculum/blob/master/mac.md)
+- [Install/Setup Editor](https://github.com/pimalabs/cloud-curriculum/blob/master/editor.md)
 - Agile vs Scrum
   - Agile
     - [Learn about Agile](https://www.youtube.com/watch?v=NrHpXvDXVrw)
@@ -23,5 +22,6 @@
 - [Git](https://github.com/pimalabs/cloud-curriculum/blob/master/git.md)
 - [Bash](https://github.com/pimalabs/cloud-curriculum/blob/master/bash.md)
 - [AWS](https://github.com/pimalabs/cloud-curriculum/blob/master/aws.md)
+- [AWS Well Architected Framework](http://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 - [GCP](https://github.com/pimalabs/cloud-curriculum/blob/master/gcp.md)
 - [Databases](https://github.com/pimalabs/cloud-curriculum/blob/master/db.md)

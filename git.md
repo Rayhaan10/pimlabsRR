@@ -46,11 +46,14 @@ Here are some links to follow.
 ### Try it out
 **Tasks:**
 1. Create an account in Github.com
-2. Create a repository via Github.com
-3. Clone a repository via https and ssh (do you know what’s the difference ?)
-4. Make changes to your code
-5. Commit code
-6. Push changes to origin
-7. Create feature branch off of master
-8. Submit pull request
-9. Merge pull request
+1. Create a repository via Github.com
+1. Clone a repository via https and ssh (do you know what’s the difference ?)
+1. Make changes to your code
+1. Commit code
+1. Push changes to origin
+1. Create feature branch off of master
+1. Submit pull request
+1. Merge pull request
+
+### Branching
+Git has a few different schools of thought on how to do branching. Search git-flow.
