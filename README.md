@@ -25,3 +25,7 @@
 - [AWS Well Architected Framework](http://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 - [GCP](https://github.com/pimalabs/cloud-curriculum/blob/master/gcp.md)
 - [Databases](https://github.com/pimalabs/cloud-curriculum/blob/master/db.md)
+- [CaC](https://github.com/pimalabs/cloud-curriculum/blob/master/cac.md)
+- [Front End](https://github.com/pimalabs/cloud-curriculum/blob/master/frontend.md)
+- [Exercises]
+  - [Webserver](https://github.com/pimalabs/cloud-curriculum/blob/master/webserver.md)  
