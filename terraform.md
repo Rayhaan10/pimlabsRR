@@ -128,3 +128,4 @@ To get certified on Terraform, here are some useful links:
 - [Hashicorp Associate Terraform Guide](https://learn.hashicorp.com/tutorials/terraform/associate-study)
 - [Udemy Practice exam for Terraform Associate Exam](https://www.udemy.com/course/terraform-associate-practice-exam/)
 - [250 Practice Questions For Terraform Associate Certification](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
+- https://onedrive.live.com/?cid=78680889B3F3BD58&id=78680889B3F3BD58%21871&parId=root&parQt=sharedby&o=OneUp
